@@ -3,12 +3,16 @@
   <Package Version="5">
     <Name Value="pascurl_lib"/>
     <Type Value="RunAndDesignTime"/>
+    <Author Value="Ivan Semenkov"/>
     <CompilerOptions>
       <Version Value="11"/>
       <SearchPaths>
-        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
     </CompilerOptions>
+    <Description Value="It is delphi and object pascal bindings and wrapper around cURL library. libcurl is the library is using for transferring data specified with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP."/>
+    <License Value="GPL-3.0 license"/>
+    <Version Major="1"/>
     <Files>
       <Item>
         <Filename Value="libpascurl.pas"/>
